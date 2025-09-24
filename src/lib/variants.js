@@ -15,7 +15,6 @@ export const getAllVariants = () => {
  */
 export const getVariants = (modelId) => {
   if (!modelId) {
-    // console.warn("Model ID is required to get variants. Returning empty array.");
     return [];
   }
   return variantsData.filter(variant => variant.modelId === modelId);

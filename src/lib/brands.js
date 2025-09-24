@@ -1,4 +1,3 @@
-// This module handles logic for brands.
 import brandsData from '../data/brand.json';
 
 /**

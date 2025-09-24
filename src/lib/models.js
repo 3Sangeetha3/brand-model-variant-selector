@@ -15,7 +15,6 @@ export const getAllModels = () => {
  */
 export const getModels = (brandId) => {
   if (!brandId) {
-    // console.warn("Brand ID is required to get models. Returning empty array.");
     return [];
   }
   return modelsData.filter(model => model.brandId === brandId);

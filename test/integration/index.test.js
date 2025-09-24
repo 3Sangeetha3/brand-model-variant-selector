@@ -1,19 +1,24 @@
-import { getBrands, getModels, getAllModels, getVariants, getAllVariants } from '../index.js';
+import { getBrands, getModels, getVariants, getAllModels, getAllVariants } from '../../src/index.js';
 
-describe('Brand, Model, and Variant Selector', () => {
+describe('Package Integration', () => {
 
   // Test the base function that retrieves all data.
   it('should retrieve all brands', () => {
     const brands = getBrands();
-    console.log('Brands:', brands);
     expect(brands).toHaveLength(2);
     expect(brands[0].name).toBe('Toyota');
   });
 
   it('should retrieve all models', () => {
-    const allModels = getAllModels();
-    console.log('Models:', allModels);
-    expect(allModels).toHaveLength(3);
+    const models = getAllModels();
+    expect(models).toHaveLength(3);
+    expect(models[0].name).toBe('Camry');
+  });
+
+  it('should retrieve all variants', () => {
+    const variants = getAllVariants();
+    expect(variants).toHaveLength(3);
+    expect(variants[0].name).toBe('LE');
   });
 
   // A representative sample of brand IDs to test the logic.
@@ -34,12 +39,6 @@ describe('Brand, Model, and Variant Selector', () => {
         expect(models[0].name).toBe(testCase.expectedFirstModelName);
       }
     });
-  });
-  
-  it('should retrieve all variants', () => {
-    const allVariants = getAllVariants();
-    console.log('Variants:', allVariants);
-    expect(allVariants).toHaveLength(3);
   });
 
   // A representative sample of model IDs to test the logic.

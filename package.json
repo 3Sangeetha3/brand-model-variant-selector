@@ -1,10 +1,16 @@
 {
   "name": "brand-model-variant-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package to select brand, model, and variant.",
-  "main": "index.js",
+  "main": "dist/brand-model-variant-selector.cjs",
+  "module": "dist/brand-model-variant-selector.mjs",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:watch": "npm run test -- --watch",
+    "test:unit" : "npm run test -- --testPathPattern=unit",
+    "test:integration" : "npm run test -- --testPathPattern=integration",
+    "build": "rollup -c ./config/rollup.config.js",
+    "build:watch": "npm run build -- --watch"
   },
   "keywords": [
     "brand",
@@ -13,18 +19,30 @@
     "selector",
     "brand-model-variant"
   ],
-  "author": "jadamalsangeetha@gmail.com",
+  "author": {
+    "name": "Sangeetha",
+    "email": "jadamalsangeetha@gmail.com"
+  },
   "license": "ISC",
   "type": "module",
-  "dependencies": {
-    "jest": "^30.1.3"
-  },
+  "dependencies": {},
   "files": [
-    "data/",
-    "src/",
-    "index.js"
+    "dist/",
+    "README.md"
   ],
   "devDependencies": {
-    "eslint": "^9.36.0"
-  }
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "eslint": "^9.36.0",
+    "rollup": "^4.52.2",
+    "jest": "^30.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3Sangeetha3/brand-model-variant-selector"
+  },
+  "bugs": {
+    "url": "https://github.com/3Sangeetha3/brand-model-variant-selector/issues"
+  },
+  "homepage": "https://github.com/3Sangeetha3/brand-model-variant-selector#readme"
 }
