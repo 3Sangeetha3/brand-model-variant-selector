@@ -1,0 +1,17 @@
+[
+    {
+        "id": "m001",
+        "brandId": "b001",
+        "name": "Camry"
+    },
+    {
+        "id": "m002",
+        "brandId": "b001",
+        "name": "Corolla"
+    },
+    {
+        "id": "m003",
+        "brandId": "b002",
+        "name": "Accord"
+    }
+]

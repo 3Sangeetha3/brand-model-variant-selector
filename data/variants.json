@@ -1,0 +1,26 @@
+[
+    {
+        "id": "v001",
+        "modelId": "m001",
+        "name": "LE",
+        "specs": {
+            "engine": "2.5L 4-Cylinder"
+        }
+    },
+    {
+        "id": "v002",
+        "modelId": "m001",
+        "name": "XSE",
+        "specs": {
+            "engine": "3.5L V6"
+        }
+    },
+    {
+        "id": "v003",
+        "modelId": "m003",
+        "name": "Sport",
+        "specs": {
+            "engine": "2.0L Turbo"
+        }
+    }
+]
