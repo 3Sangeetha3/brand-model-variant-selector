@@ -2,9 +2,14 @@ name: CI/CD Pipeline
 
 on:
     push:
-        branches: [main, develop] # Combined: CI for develop, CI+CD for main
+        branches: [main, develop]
     pull_request:
-        branches: [main, develop] # CI for PRs
+        branches: [main, develop]
+
+# Add explicit permissions
+permissions:
+    contents: write  # For git commits and tags
+    actions: read    # For workflow access
 
 jobs:
     ci:
@@ -28,7 +33,6 @@ jobs:
             - name: Build package
               run: npm run build
 
-    # This job ONLY runs when pushing to main branch
     cd:
         needs: ci
         runs-on: ubuntu-latest
@@ -37,7 +41,8 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # Need full history for versioning
+                  fetch-depth: 0
+                  token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Setup Node.js
               uses: actions/setup-node@v4
@@ -57,15 +62,37 @@ jobs:
                   git config --global user.name 'github-actions[bot]'
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-            - name: Bump version and publish
+            - name: Check if version needs bumping
+              id: version_check
               run: |
-                  npm version patch --no-git-tag-version
-                  npm publish
-                  VERSION=$(node -p "require('./package.json').version")
+                  CURRENT_VERSION=$(node -p "require('./package.json').version")
+                  echo "Current version: $CURRENT_VERSION"
+                  
+                  # Check if this version exists on npm
+                  if npm view brand-model-variant-selector@$CURRENT_VERSION version > /dev/null 2>&1; then
+                    echo "Version $CURRENT_VERSION already exists on npm, bumping version..."
+                    npm version patch --no-git-tag-version
+                    NEW_VERSION=$(node -p "require('./package.json').version")
+                    echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+                    echo "version_bumped=true" >> $GITHUB_OUTPUT
+                  else
+                    echo "Version $CURRENT_VERSION does not exist on npm, using current version..."
+                    echo "new_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+                    echo "version_bumped=false" >> $GITHUB_OUTPUT
+                  fi
+
+            - name: Publish to npm
+              run: npm publish
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Commit version bump and create tag
+              if: steps.version_check.outputs.version_bumped == 'true'
+              run: |
+                  VERSION=${{ steps.version_check.outputs.new_version }}
                   git add package.json
                   git commit -m "chore: bump version to ${VERSION}"
                   git tag -a "v${VERSION}" -m "Release version ${VERSION}"
                   git push origin main --tags
               env:
-                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
