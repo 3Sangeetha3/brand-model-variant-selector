@@ -1,16 +1,20 @@
 {
   "name": "brand-model-variant-selector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An npm package to select brand, model, and variant.",
   "main": "dist/brand-model-variant-selector.cjs",
   "module": "dist/brand-model-variant-selector.mjs",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "test:watch": "npm run test -- --watch",
-    "test:unit" : "npm run test -- --testPathPattern=unit",
-    "test:integration" : "npm run test -- --testPathPattern=integration",
+    "test:unit": "npm run test -- --testPathPatterns=unit",
+    "test:integration": "npm run test -- --testPathPatterns=integration",
     "build": "rollup -c ./config/rollup.config.js",
-    "build:watch": "npm run build -- --watch"
+    "build:watch": "npm run build -- --watch",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "prepublishOnly": "npm run test && npm run build"
   },
   "keywords": [
     "brand",
