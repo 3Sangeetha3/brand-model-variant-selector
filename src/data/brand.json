@@ -1,10 +1,398 @@
 [
     {
         "id": "b001",
-        "name": "Toyota"
+        "name": "ABZO"
     },
     {
         "id": "b002",
-        "name": "Honda"
+        "name": "ADMS"
+    },
+    {
+        "id": "b003",
+        "name": "Aeroride"
+    },
+    {
+        "id": "b004",
+        "name": "Aftek Motors"
+    },
+    {
+        "id": "b005",
+        "name": "AMO Electric"
+    },
+    {
+        "id": "b006",
+        "name": "Ampere Electric"
+    },
+    {
+        "id": "b007",
+        "name": "Aprilia"
+    },
+    {
+        "id": "b008",
+        "name": "Ather"
+    },
+    {
+        "id": "b009",
+        "name": "Atumobile"
+    },
+    {
+        "id": "b010",
+        "name": "Avera"
+    },
+    {
+        "id": "b011",
+        "name": "Avon"
+    },
+    {
+        "id": "b012",
+        "name": "BattRE Electric Mobility"
+    },
+    {
+        "id": "b013",
+        "name": "Benelli"
+    },
+    {
+        "id": "b014",
+        "name": "BGauss"
+    },
+    {
+        "id": "b015",
+        "name": "BMW"
+    },
+    {
+        "id": "b016",
+        "name": "BNC Motors"
+    },
+    {
+        "id": "b017",
+        "name": "Bounce"
+    },
+    {
+        "id": "b018",
+        "name": "Brixton Motorcycles"
+    },
+    {
+        "id": "b019",
+        "name": "BSA"
+    },
+    {
+        "id": "b020",
+        "name": "CFMoto"
+    },
+    {
+        "id": "b021",
+        "name": "Corrit Electric"
+    },
+    {
+        "id": "b022",
+        "name": "Crayon Motors"
+    },
+    {
+        "id": "b023",
+        "name": "Creatara Mobility"
+    },
+    {
+        "id": "b024",
+        "name": "Cyborg"
+    },
+    {
+        "id": "b025",
+        "name": "DAO"
+    },
+    {
+        "id": "b026",
+        "name": "DelEVery"
+    },
+    {
+        "id": "b027",
+        "name": "Deltic"
+    },
+    {
+        "id": "b028",
+        "name": "Detel EV"
+    },
+    {
+        "id": "b029",
+        "name": "Ducati"
+    },
+    {
+        "id": "b030",
+        "name": "e-Sprinto"
+    },
+    {
+        "id": "b031",
+        "name": "E-Went"
+    },
+    {
+        "id": "b032",
+        "name": "eblu"
+    },
+    {
+        "id": "b033",
+        "name": "EeVe"
+    },
+    {
+        "id": "b034",
+        "name": "Eko Tejas"
+    },
+    {
+        "id": "b035",
+        "name": "Elecson"
+    },
+    {
+        "id": "b036",
+        "name": "Emote Electric"
+    },
+    {
+        "id": "b037",
+        "name": "EMotorad"
+    },
+    {
+        "id": "b038",
+        "name": "Energy Automobile"
+    },
+    {
+        "id": "b039",
+        "name": "Enigma"
+    },
+    {
+        "id": "b040",
+        "name": "Essel Energy"
+    },
+    {
+        "id": "b041",
+        "name": "EVeium"
+    },
+    {
+        "id": "b042",
+        "name": "Evoke Motorcycles"
+    },
+    {
+        "id": "b043",
+        "name": "Evolet"
+    },
+    {
+        "id": "b044",
+        "name": "Fidato Evtech"
+    },
+    {
+        "id": "b045",
+        "name": "Firefox"
+    },
+    {
+        "id": "b046",
+        "name": "Flycon Motors"
+    },
+    {
+        "id": "b047",
+        "name": "Fujiyama"
+    },
+    {
+        "id": "b048",
+        "name": "Gaura Electric"
+    },
+    {
+        "id": "b049",
+        "name": "Geliose"
+    },
+    {
+        "id": "b050",
+        "name": "Gemopai"
+    },
+    {
+        "id": "b051",
+        "name": "GoBike"
+    },
+    {
+        "id": "b052",
+        "name": "Gogoro"
+    },
+    {
+        "id": "b053",
+        "name": "Gravton Motors"
+    },
+    {
+        "id": "b054",
+        "name": "Greta Electric"
+    },
+    {
+        "id": "b055",
+        "name": "GT Force"
+    },
+    {
+        "id": "b056",
+        "name": "Harley Davidson"
+    },
+    {
+        "id": "b057",
+        "name": "Hayasa"
+    },
+    {
+        "id": "b058",
+        "name": "HCD India"
+    },
+    {
+        "id": "b059",
+        "name": "Herald"
+    },
+    {
+        "id": "b060",
+        "name": "Hero Electric"
+    },
+    {
+        "id": "b061",
+        "name": "Hero Lectro"
+    },
+    {
+        "id": "b062",
+        "name": "Hop Electric"
+    },
+    {
+        "id": "b063",
+        "name": "Hornback"
+    },
+    {
+        "id": "b064",
+        "name": "Husqvarna Motorcycles"
+    },
+    {
+        "id": "b065",
+        "name": "iGowise Mobility"
+    },
+    {
+        "id": "b066",
+        "name": "Indian"
+    },
+    {
+        "id": "b067",
+        "name": "iScoot"
+    },
+    {
+        "id": "b068",
+        "name": "iVOOMi"
+    },
+    {
+        "id": "b069",
+        "name": "Jawa"
+    },
+    {
+        "id": "b070",
+        "name": "JHEV"
+    },
+    {
+        "id": "b071",
+        "name": "Kabira Mobility"
+    },
+    {
+        "id": "b072",
+        "name": "Kinetic Green"
+    },
+    {
+        "id": "b073",
+        "name": "Komaki"
+    },
+    {
+        "id": "b074",
+        "name": "LML"
+    },
+    {
+        "id": "b075",
+        "name": "Lectrix EV"
+    },
+    {
+        "id": "b076",
+        "name": "M2GO"
+    },
+    {
+        "id": "b077",
+        "name": "Matter"
+    },
+    {
+        "id": "b078",
+        "name": "Merico Electric"
+    },
+    {
+        "id": "b079",
+        "name": "Motovolt"
+    },
+    {
+        "id": "b080",
+        "name": "Odysse Electric"
+    },
+    {
+        "id": "b081",
+        "name": "Okinawa Autotech"
+    },
+    {
+        "id": "b082",
+        "name": "Okaya EV"
+    },
+    {
+        "id": "b083",
+        "name": "Ola Electric"
+    },
+    {
+        "id": "b084",
+        "name": "One Electric"
+    },
+    {
+        "id": "b085",
+        "name": "PURE EV"
+    },
+    {
+        "id": "b086",
+        "name": "Quantum Energy"
+    },
+    {
+        "id": "b087",
+        "name": "Revolt Motors"
+    },
+    {
+        "id": "b088",
+        "name": "Rowwet Mobility"
+    },
+    {
+        "id": "b089",
+        "name": "Simple Energy"
+    },
+    {
+        "id": "b090",
+        "name": "Strom Motors"
+    },
+    {
+        "id": "b091",
+        "name": "Super Eco"
+    },
+    {
+        "id": "b092",
+        "name": "Suzuki"
+    },
+    {
+        "id": "b093",
+        "name": "Triumph"
+    },
+    {
+        "id": "b094",
+        "name": "Tunwal"
+    },
+    {
+        "id": "b095",
+        "name": "Ultraviolette"
+    },
+    {
+        "id": "b096",
+        "name": "Vespa"
+    },
+    {
+        "id": "b097",
+        "name": "Vida (Hero MotoCorp)"
+    },
+    {
+        "id": "b098",
+        "name": "Yamaha"
+    },
+    {
+        "id": "b099",
+        "name": "Yulu"
     }
 ]
