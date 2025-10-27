@@ -1,26 +1,1496 @@
 [
     {
         "id": "v001",
-        "modelId": "m001",
-        "name": "LE",
+        "modelId": "m1001",
+        "name": "125",
         "specs": {
-            "engine": "2.5L 4-Cylinder"
+            "engine": "125cc Air-cooled",
+            "type": "Scooter"
         }
     },
     {
         "id": "v002",
-        "modelId": "m001",
-        "name": "XSE",
+        "modelId": "m1001",
+        "name": "6G",
         "specs": {
-            "engine": "3.5L V6"
+            "engine": "110cc Air-cooled",
+            "type": "Scooter"
         }
     },
     {
         "id": "v003",
-        "modelId": "m003",
-        "name": "Sport",
+        "modelId": "m1001",
+        "name": "e (Electric)",
         "specs": {
-            "engine": "2.0L Turbo"
+            "engine": "Electric Motor",
+            "type": "Electric Scooter"
+        }
+    },
+    {
+        "id": "v004",
+        "modelId": "m1001",
+        "name": "7G",
+        "specs": {
+            "engine": "110cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v005",
+        "modelId": "m1002",
+        "name": "CB300F",
+        "specs": {
+            "engine": "286cc Single-cylinder",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v006",
+        "modelId": "m1002",
+        "name": "CB300F Flex-Fuel",
+        "specs": {
+            "engine": "286cc Single-cylinder Flex-fuel",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v007",
+        "modelId": "m1002",
+        "name": "CB300R",
+        "specs": {
+            "engine": "286cc Single-cylinder",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v008",
+        "modelId": "m1003",
+        "name": "CB350",
+        "specs": {
+            "engine": "348cc Single-cylinder",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v009",
+        "modelId": "m1003",
+        "name": "CB350 H'ness",
+        "specs": {
+            "engine": "348cc Single-cylinder",
+            "type": "Retro Naked"
+        }
+    },
+    {
+        "id": "v010",
+        "modelId": "m1003",
+        "name": "CB350C",
+        "specs": {
+            "engine": "348cc Single-cylinder",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v011",
+        "modelId": "m1003",
+        "name": "CB350RS",
+        "specs": {
+            "engine": "348cc Single-cylinder",
+            "type": "Sport Naked"
+        }
+    },
+    {
+        "id": "v012",
+        "modelId": "m1003",
+        "name": "CB350 Cruiser",
+        "specs": {
+            "engine": "348cc Single-cylinder",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v013",
+        "modelId": "m1004",
+        "name": "CB500F",
+        "specs": {
+            "engine": "471cc Parallel-twin",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v014",
+        "modelId": "m1005",
+        "name": "CB650R",
+        "specs": {
+            "engine": "649cc Inline-4",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v015",
+        "modelId": "m1006",
+        "name": "CB1000R",
+        "specs": {
+            "engine": "998cc Inline-4",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v016",
+        "modelId": "m1007",
+        "name": "CBR150R",
+        "specs": {
+            "engine": "149cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v017",
+        "modelId": "m1007",
+        "name": "CBR500R",
+        "specs": {
+            "engine": "471cc Parallel-twin",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v018",
+        "modelId": "m1007",
+        "name": "CBR650R",
+        "specs": {
+            "engine": "649cc Inline-4",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v019",
+        "modelId": "m1007",
+        "name": "CBR1000RR-R SP",
+        "specs": {
+            "engine": "999cc Inline-4",
+            "type": "Superbike"
+        }
+    },
+    {
+        "id": "v020",
+        "modelId": "m1008",
+        "name": "Dio",
+        "specs": {
+            "engine": "110cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v021",
+        "modelId": "m1008",
+        "name": "Dio 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v022",
+        "modelId": "m1010",
+        "name": "CB125 Hornet",
+        "specs": {
+            "engine": "124cc Single-cylinder",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v023",
+        "modelId": "m1010",
+        "name": "CB750 Hornet",
+        "specs": {
+            "engine": "755cc Parallel-twin",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v024",
+        "modelId": "m1010",
+        "name": "CB1000 Hornet SP",
+        "specs": {
+            "engine": "998cc Inline-4",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v025",
+        "modelId": "m1010",
+        "name": "Hornet 2.0",
+        "specs": {
+            "engine": "184cc Single-cylinder",
+            "type": "Naked Bike"
+        }
+    },
+    {
+        "id": "v026",
+        "modelId": "m1012",
+        "name": "NX200",
+        "specs": {
+            "engine": "199cc Single-cylinder",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v027",
+        "modelId": "m1012",
+        "name": "NX500",
+        "specs": {
+            "engine": "471cc Parallel-twin",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v028",
+        "modelId": "m1014",
+        "name": "Rebel 300",
+        "specs": {
+            "engine": "286cc Single-cylinder",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v029",
+        "modelId": "m1014",
+        "name": "Rebel 500",
+        "specs": {
+            "engine": "471cc Parallel-twin",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v030",
+        "modelId": "m1014",
+        "name": "Rebel 1100",
+        "specs": {
+            "engine": "1084cc Parallel-twin",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v031",
+        "modelId": "m1015",
+        "name": "SP125",
+        "specs": {
+            "engine": "124cc Single-cylinder",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v032",
+        "modelId": "m1015",
+        "name": "SP160",
+        "specs": {
+            "engine": "162cc Single-cylinder",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v033",
+        "modelId": "m1016",
+        "name": "Shine",
+        "specs": {
+            "engine": "124cc Single-cylinder",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v034",
+        "modelId": "m1016",
+        "name": "Shine 100",
+        "specs": {
+            "engine": "99cc Single-cylinder",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v035",
+        "modelId": "m1016",
+        "name": "Shine 100 DX",
+        "specs": {
+            "engine": "99cc Single-cylinder",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v036",
+        "modelId": "m1016",
+        "name": "Shine Electric",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Commuter"
+        }
+    },
+    {
+        "id": "v037",
+        "modelId": "m1026",
+        "name": "Bullet 350",
+        "specs": {
+            "engine": "349cc Single-cylinder",
+            "type": "Classic"
+        }
+    },
+    {
+        "id": "v038",
+        "modelId": "m1026",
+        "name": "Bullet 650",
+        "specs": {
+            "engine": "648cc Parallel-twin",
+            "type": "Classic"
+        }
+    },
+    {
+        "id": "v039",
+        "modelId": "m1027",
+        "name": "Classic 350",
+        "specs": {
+            "engine": "349cc Single-cylinder",
+            "type": "Classic"
+        }
+    },
+    {
+        "id": "v040",
+        "modelId": "m1027",
+        "name": "Classic 650",
+        "specs": {
+            "engine": "648cc Parallel-twin",
+            "type": "Classic"
+        }
+    },
+    {
+        "id": "v041",
+        "modelId": "m1027",
+        "name": "Goan Classic 350",
+        "specs": {
+            "engine": "349cc Single-cylinder",
+            "type": "Classic"
+        }
+    },
+    {
+        "id": "v042",
+        "modelId": "m1028",
+        "name": "Continental GT 450",
+        "specs": {
+            "engine": "452cc Single-cylinder",
+            "type": "Cafe Racer"
+        }
+    },
+    {
+        "id": "v043",
+        "modelId": "m1028",
+        "name": "Continental GT 650",
+        "specs": {
+            "engine": "648cc Parallel-twin",
+            "type": "Cafe Racer"
+        }
+    },
+    {
+        "id": "v044",
+        "modelId": "m1028",
+        "name": "Continental GT 750",
+        "specs": {
+            "engine": "750cc Parallel-twin",
+            "type": "Cafe Racer"
+        }
+    },
+    {
+        "id": "v045",
+        "modelId": "m1030",
+        "name": "Himalayan 450",
+        "specs": {
+            "engine": "452cc Single-cylinder",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v046",
+        "modelId": "m1030",
+        "name": "Himalayan 750",
+        "specs": {
+            "engine": "750cc Parallel-twin",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v047",
+        "modelId": "m1030",
+        "name": "Himalayan Electric",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Adventure"
+        }
+    },
+    {
+        "id": "v048",
+        "modelId": "m1036",
+        "name": "Super Meteor 650",
+        "specs": {
+            "engine": "648cc Parallel-twin",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v049",
+        "modelId": "m1036",
+        "name": "2026 Super Meteor 650",
+        "specs": {
+            "engine": "648cc Parallel-twin",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v050",
+        "modelId": "m1039",
+        "name": "Flying Flea C6",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Urban"
+        }
+    },
+    {
+        "id": "v051",
+        "modelId": "m1039",
+        "name": "Flying Flea S6",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Urban"
+        }
+    },
+    {
+        "id": "v052",
+        "modelId": "m1040",
+        "name": "Apache RR 310",
+        "specs": {
+            "engine": "312cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v053",
+        "modelId": "m1040",
+        "name": "Apache RR 450",
+        "specs": {
+            "engine": "450cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v054",
+        "modelId": "m1041",
+        "name": "Apache RTR 160",
+        "specs": {
+            "engine": "159cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v055",
+        "modelId": "m1041",
+        "name": "Apache RTR 160 4V",
+        "specs": {
+            "engine": "159cc Single-cylinder 4V",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v056",
+        "modelId": "m1041",
+        "name": "Apache RTR 180",
+        "specs": {
+            "engine": "177cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v057",
+        "modelId": "m1041",
+        "name": "Apache RTR 200 4V",
+        "specs": {
+            "engine": "197cc Single-cylinder 4V",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v058",
+        "modelId": "m1041",
+        "name": "Apache RTR 310",
+        "specs": {
+            "engine": "312cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v059",
+        "modelId": "m1043",
+        "name": "Jupiter",
+        "specs": {
+            "engine": "110cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v060",
+        "modelId": "m1043",
+        "name": "Jupiter 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v061",
+        "modelId": "m1043",
+        "name": "Jupiter CNG",
+        "specs": {
+            "engine": "110cc CNG",
+            "type": "CNG Scooter"
+        }
+    },
+    {
+        "id": "v062",
+        "modelId": "m1044",
+        "name": "NTORQ 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Sport Scooter"
+        }
+    },
+    {
+        "id": "v063",
+        "modelId": "m1044",
+        "name": "NTorq 150",
+        "specs": {
+            "engine": "149cc Air-cooled",
+            "type": "Sport Scooter"
+        }
+    },
+    {
+        "id": "v064",
+        "modelId": "m1054",
+        "name": "iQube",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Scooter"
+        }
+    },
+    {
+        "id": "v065",
+        "modelId": "m1054",
+        "name": "iQube S",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Scooter"
+        }
+    },
+    {
+        "id": "v066",
+        "modelId": "m1054",
+        "name": "iQube ST",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Scooter"
+        }
+    },
+    {
+        "id": "v067",
+        "modelId": "m1054",
+        "name": "2025 iQube ST Concept",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Scooter Concept"
+        }
+    },
+    {
+        "id": "v068",
+        "modelId": "m1058",
+        "name": "FZ X",
+        "specs": {
+            "engine": "149cc Air-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v069",
+        "modelId": "m1058",
+        "name": "FZ X Hybrid",
+        "specs": {
+            "engine": "149cc Hybrid",
+            "type": "Hybrid Naked"
+        }
+    },
+    {
+        "id": "v070",
+        "modelId": "m1058",
+        "name": "FZ-FI Version 3.0",
+        "specs": {
+            "engine": "149cc Air-cooled FI",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v071",
+        "modelId": "m1058",
+        "name": "FZS-FI V3",
+        "specs": {
+            "engine": "149cc Air-cooled FI",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v072",
+        "modelId": "m1058",
+        "name": "FZS-FI V4",
+        "specs": {
+            "engine": "149cc Air-cooled FI",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v073",
+        "modelId": "m1058",
+        "name": "2025 FZ-S Fi",
+        "specs": {
+            "engine": "149cc Hybrid FI",
+            "type": "Hybrid Naked"
+        }
+    },
+    {
+        "id": "v074",
+        "modelId": "m1059",
+        "name": "Fascino 125 Fi Hybrid",
+        "specs": {
+            "engine": "125cc Hybrid",
+            "type": "Hybrid Scooter"
+        }
+    },
+    {
+        "id": "v075",
+        "modelId": "m1060",
+        "name": "MT 15 Version 2.0",
+        "specs": {
+            "engine": "155cc Liquid-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v076",
+        "modelId": "m1061",
+        "name": "MT-03",
+        "specs": {
+            "engine": "321cc Parallel-twin",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v077",
+        "modelId": "m1061",
+        "name": "2025 MT-03",
+        "specs": {
+            "engine": "321cc Parallel-twin",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v078",
+        "modelId": "m1065",
+        "name": "R15 V4",
+        "specs": {
+            "engine": "155cc Liquid-cooled",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v079",
+        "modelId": "m1065",
+        "name": "R15S",
+        "specs": {
+            "engine": "155cc Liquid-cooled",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v080",
+        "modelId": "m1066",
+        "name": "R3",
+        "specs": {
+            "engine": "321cc Parallel-twin",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v081",
+        "modelId": "m1066",
+        "name": "2025 R3",
+        "specs": {
+            "engine": "321cc Parallel-twin",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v082",
+        "modelId": "m1068",
+        "name": "RayZR 125 Fi Hybrid",
+        "specs": {
+            "engine": "125cc Hybrid",
+            "type": "Hybrid Scooter"
+        }
+    },
+    {
+        "id": "v083",
+        "modelId": "m1075",
+        "name": "XSR 155",
+        "specs": {
+            "engine": "155cc Liquid-cooled",
+            "type": "Neo-retro"
+        }
+    },
+    {
+        "id": "v084",
+        "modelId": "m1075",
+        "name": "XSR125",
+        "specs": {
+            "engine": "125cc Air-cooled",
+            "type": "Neo-retro"
+        }
+    },
+    {
+        "id": "v085",
+        "modelId": "m1080",
+        "name": "Destini 110",
+        "specs": {
+            "engine": "110cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v086",
+        "modelId": "m1080",
+        "name": "Destini 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v087",
+        "modelId": "m1080",
+        "name": "Destini Prime",
+        "specs": {
+            "engine": "125cc Air-cooled",
+            "type": "Premium Scooter"
+        }
+    },
+    {
+        "id": "v088",
+        "modelId": "m1081",
+        "name": "Glamour",
+        "specs": {
+            "engine": "125cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v089",
+        "modelId": "m1081",
+        "name": "Glamour X 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v090",
+        "modelId": "m1081",
+        "name": "Glamour XTEC",
+        "specs": {
+            "engine": "125cc Air-cooled",
+            "type": "Tech Commuter"
+        }
+    },
+    {
+        "id": "v091",
+        "modelId": "m1082",
+        "name": "HF 100",
+        "specs": {
+            "engine": "97cc Air-cooled",
+            "type": "Economy Commuter"
+        }
+    },
+    {
+        "id": "v092",
+        "modelId": "m1082",
+        "name": "HF Deluxe",
+        "specs": {
+            "engine": "97cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v093",
+        "modelId": "m1082",
+        "name": "HF Deluxe Pro",
+        "specs": {
+            "engine": "97cc Air-cooled",
+            "type": "Premium Commuter"
+        }
+    },
+    {
+        "id": "v094",
+        "modelId": "m1083",
+        "name": "Karizma XMR",
+        "specs": {
+            "engine": "210cc Single-cylinder",
+            "type": "Sport Touring"
+        }
+    },
+    {
+        "id": "v095",
+        "modelId": "m1083",
+        "name": "Karizma XMR 250",
+        "specs": {
+            "engine": "250cc Single-cylinder",
+            "type": "Sport Touring"
+        }
+    },
+    {
+        "id": "v096",
+        "modelId": "m1084",
+        "name": "Mavrick 440",
+        "specs": {
+            "engine": "440cc Single-cylinder",
+            "type": "Roadster"
+        }
+    },
+    {
+        "id": "v097",
+        "modelId": "m1084",
+        "name": "2025 Mavrick 440",
+        "specs": {
+            "engine": "440cc Single-cylinder",
+            "type": "Roadster"
+        }
+    },
+    {
+        "id": "v098",
+        "modelId": "m1084",
+        "name": "Mavrick 440 Scrambler",
+        "specs": {
+            "engine": "440cc Single-cylinder",
+            "type": "Scrambler"
+        }
+    },
+    {
+        "id": "v099",
+        "modelId": "m1087",
+        "name": "Splendor Plus",
+        "specs": {
+            "engine": "97cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v100",
+        "modelId": "m1087",
+        "name": "Splendor Plus XTEC",
+        "specs": {
+            "engine": "97cc Air-cooled",
+            "type": "Tech Commuter"
+        }
+    },
+    {
+        "id": "v101",
+        "modelId": "m1087",
+        "name": "Super Splendor XTEC",
+        "specs": {
+            "engine": "125cc Air-cooled",
+            "type": "Premium Commuter"
+        }
+    },
+    {
+        "id": "v102",
+        "modelId": "m1087",
+        "name": "Splendor Electric",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Commuter"
+        }
+    },
+    {
+        "id": "v103",
+        "modelId": "m1088",
+        "name": "XPulse 160",
+        "specs": {
+            "engine": "160cc Air-cooled",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v104",
+        "modelId": "m1088",
+        "name": "XPulse 200 4V",
+        "specs": {
+            "engine": "199cc Air-cooled 4V",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v105",
+        "modelId": "m1088",
+        "name": "XPulse 210",
+        "specs": {
+            "engine": "210cc Air-cooled",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v106",
+        "modelId": "m1088",
+        "name": "XPulse 421",
+        "specs": {
+            "engine": "421cc Single-cylinder",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v107",
+        "modelId": "m1089",
+        "name": "Xoom 110",
+        "specs": {
+            "engine": "110cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v108",
+        "modelId": "m1089",
+        "name": "Xoom 125",
+        "specs": {
+            "engine": "125cc Air-cooled",
+            "type": "Scooter"
+        }
+    },
+    {
+        "id": "v109",
+        "modelId": "m1089",
+        "name": "Xoom 160",
+        "specs": {
+            "engine": "160cc Air-cooled",
+            "type": "Performance Scooter"
+        }
+    },
+    {
+        "id": "v110",
+        "modelId": "m1090",
+        "name": "Xtreme 125R",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Sport Commuter"
+        }
+    },
+    {
+        "id": "v111",
+        "modelId": "m1090",
+        "name": "Xtreme 160R",
+        "specs": {
+            "engine": "163cc Air-cooled",
+            "type": "Sport Naked"
+        }
+    },
+    {
+        "id": "v112",
+        "modelId": "m1090",
+        "name": "Xtreme 160R 4V",
+        "specs": {
+            "engine": "163cc Air-cooled 4V",
+            "type": "Sport Naked"
+        }
+    },
+    {
+        "id": "v113",
+        "modelId": "m1090",
+        "name": "Xtreme 250R",
+        "specs": {
+            "engine": "249cc Oil-cooled",
+            "type": "Sport Naked"
+        }
+    },
+    {
+        "id": "v114",
+        "modelId": "m1090",
+        "name": "Xtreme 400S",
+        "specs": {
+            "engine": "400cc Liquid-cooled",
+            "type": "Sport Naked"
+        }
+    },
+    {
+        "id": "v115",
+        "modelId": "m1092",
+        "name": "Avenger 220 Street",
+        "specs": {
+            "engine": "220cc DTS-i",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v116",
+        "modelId": "m1092",
+        "name": "Avenger Cruise 220",
+        "specs": {
+            "engine": "220cc DTS-i",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v117",
+        "modelId": "m1092",
+        "name": "Avenger Street 160",
+        "specs": {
+            "engine": "160cc DTS-i",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v118",
+        "modelId": "m1092",
+        "name": "Avenger 400",
+        "specs": {
+            "engine": "400cc Liquid-cooled",
+            "type": "Cruiser"
+        }
+    },
+    {
+        "id": "v119",
+        "modelId": "m1094",
+        "name": "Chetak",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Scooter"
+        }
+    },
+    {
+        "id": "v120",
+        "modelId": "m1094",
+        "name": "New Chetak",
+        "specs": {
+            "engine": "Electric Motor",
+            "type": "Electric Scooter"
+        }
+    },
+    {
+        "id": "v121",
+        "modelId": "m1095",
+        "name": "Dominar 250",
+        "specs": {
+            "engine": "248cc Liquid-cooled",
+            "type": "Sports Tourer"
+        }
+    },
+    {
+        "id": "v122",
+        "modelId": "m1095",
+        "name": "Dominar 400",
+        "specs": {
+            "engine": "373cc Liquid-cooled",
+            "type": "Sports Tourer"
+        }
+    },
+    {
+        "id": "v123",
+        "modelId": "m1097",
+        "name": "Platina 100",
+        "specs": {
+            "engine": "102cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v124",
+        "modelId": "m1097",
+        "name": "Platina 110",
+        "specs": {
+            "engine": "115cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v125",
+        "modelId": "m1097",
+        "name": "Platina 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Commuter"
+        }
+    },
+    {
+        "id": "v126",
+        "modelId": "m1098",
+        "name": "Pulsar 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Sport Commuter"
+        }
+    },
+    {
+        "id": "v127",
+        "modelId": "m1098",
+        "name": "Pulsar 150",
+        "specs": {
+            "engine": "149cc Air-cooled",
+            "type": "Sport Naked"
+        }
+    },
+    {
+        "id": "v128",
+        "modelId": "m1098",
+        "name": "Pulsar 220 F",
+        "specs": {
+            "engine": "220cc Oil-cooled",
+            "type": "Semi-faired"
+        }
+    },
+    {
+        "id": "v129",
+        "modelId": "m1098",
+        "name": "Pulsar N125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v130",
+        "modelId": "m1098",
+        "name": "Pulsar N160",
+        "specs": {
+            "engine": "164cc Oil-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v131",
+        "modelId": "m1098",
+        "name": "Pulsar N250",
+        "specs": {
+            "engine": "249cc Oil-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v132",
+        "modelId": "m1098",
+        "name": "Pulsar NS 125",
+        "specs": {
+            "engine": "124cc Air-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v133",
+        "modelId": "m1098",
+        "name": "Pulsar NS150",
+        "specs": {
+            "engine": "149cc Air-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v134",
+        "modelId": "m1098",
+        "name": "Pulsar NS160",
+        "specs": {
+            "engine": "160cc Oil-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v135",
+        "modelId": "m1098",
+        "name": "Pulsar NS200",
+        "specs": {
+            "engine": "199cc Liquid-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v136",
+        "modelId": "m1098",
+        "name": "Pulsar NS400Z",
+        "specs": {
+            "engine": "373cc Liquid-cooled",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v137",
+        "modelId": "m1098",
+        "name": "Pulsar RS200",
+        "specs": {
+            "engine": "199cc Liquid-cooled",
+            "type": "Sport Faired"
+        }
+    },
+    {
+        "id": "v138",
+        "modelId": "m1098",
+        "name": "Pulsar RS400",
+        "specs": {
+            "engine": "373cc Liquid-cooled",
+            "type": "Sport Faired"
+        }
+    },
+    {
+        "id": "v139",
+        "modelId": "m1099",
+        "name": "1290 Super Adventure S",
+        "specs": {
+            "engine": "1301cc V-twin",
+            "type": "Adventure Tourer"
+        }
+    },
+    {
+        "id": "v140",
+        "modelId": "m1100",
+        "name": "160 Duke",
+        "specs": {
+            "engine": "160cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v141",
+        "modelId": "m1100",
+        "name": "200 Duke",
+        "specs": {
+            "engine": "199cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v142",
+        "modelId": "m1100",
+        "name": "250 Duke",
+        "specs": {
+            "engine": "248cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v143",
+        "modelId": "m1100",
+        "name": "Duke 390",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v144",
+        "modelId": "m1100",
+        "name": "Duke 490",
+        "specs": {
+            "engine": "490cc Parallel-twin",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v145",
+        "modelId": "m1100",
+        "name": "890 Duke",
+        "specs": {
+            "engine": "889cc Parallel-twin",
+            "type": "Naked Street"
+        }
+    },
+    {
+        "id": "v146",
+        "modelId": "m1100",
+        "name": "1390 Super Duke R",
+        "specs": {
+            "engine": "1350cc V-twin",
+            "type": "Super Naked"
+        }
+    },
+    {
+        "id": "v147",
+        "modelId": "m1101",
+        "name": "250 Adventure",
+        "specs": {
+            "engine": "248cc Single-cylinder",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v148",
+        "modelId": "m1101",
+        "name": "390 Adventure",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v149",
+        "modelId": "m1101",
+        "name": "390 Adventure X",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v150",
+        "modelId": "m1101",
+        "name": "890 Adventure",
+        "specs": {
+            "engine": "889cc Parallel-twin",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v151",
+        "modelId": "m1101",
+        "name": "890 Adventure R",
+        "specs": {
+            "engine": "889cc Parallel-twin",
+            "type": "Adventure"
+        }
+    },
+    {
+        "id": "v152",
+        "modelId": "m1102",
+        "name": "50 SX",
+        "specs": {
+            "engine": "49cc 2-stroke",
+            "type": "Motocross"
+        }
+    },
+    {
+        "id": "v153",
+        "modelId": "m1102",
+        "name": "65 SX",
+        "specs": {
+            "engine": "65cc 2-stroke",
+            "type": "Motocross"
+        }
+    },
+    {
+        "id": "v154",
+        "modelId": "m1102",
+        "name": "85 SX",
+        "specs": {
+            "engine": "85cc 2-stroke",
+            "type": "Motocross"
+        }
+    },
+    {
+        "id": "v155",
+        "modelId": "m1102",
+        "name": "250 SX-F",
+        "specs": {
+            "engine": "249cc 4-stroke",
+            "type": "Motocross"
+        }
+    },
+    {
+        "id": "v156",
+        "modelId": "m1102",
+        "name": "450 SX-F",
+        "specs": {
+            "engine": "449cc 4-stroke",
+            "type": "Motocross"
+        }
+    },
+    {
+        "id": "v157",
+        "modelId": "m1103",
+        "name": "350 EXC-F",
+        "specs": {
+            "engine": "349cc 4-stroke",
+            "type": "Enduro"
+        }
+    },
+    {
+        "id": "v158",
+        "modelId": "m1104",
+        "name": "390 Enduro R",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Enduro"
+        }
+    },
+    {
+        "id": "v159",
+        "modelId": "m1105",
+        "name": "RC 160",
+        "specs": {
+            "engine": "160cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v160",
+        "modelId": "m1105",
+        "name": "RC 200",
+        "specs": {
+            "engine": "199cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v161",
+        "modelId": "m1105",
+        "name": "RC 390",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v162",
+        "modelId": "m1105",
+        "name": "2025 RC 125",
+        "specs": {
+            "engine": "124cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v163",
+        "modelId": "m1105",
+        "name": "2025 RC 390",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v164",
+        "modelId": "m1105",
+        "name": "RC 490",
+        "specs": {
+            "engine": "490cc Parallel-twin",
+            "type": "Sport Bike"
+        }
+    },
+    {
+        "id": "v165",
+        "modelId": "m1105",
+        "name": "990 RC R",
+        "specs": {
+            "engine": "947cc V-twin",
+            "type": "Track Bike"
+        }
+    },
+    {
+        "id": "v166",
+        "modelId": "m1106",
+        "name": "390 SMC R",
+        "specs": {
+            "engine": "373cc Single-cylinder",
+            "type": "Supermoto"
         }
     }
 ]

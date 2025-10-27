@@ -8,6 +8,10 @@
         "name": "ADMS"
     },
     {
+        "id": "b100",
+        "name": "AERODO"
+    },
+    {
         "id": "b003",
         "name": "Aeroride"
     },
@@ -42,6 +46,10 @@
     {
         "id": "b011",
         "name": "Avon"
+    },
+    {
+        "id": "b101",
+        "name": "Bajaj"
     },
     {
         "id": "b012",
@@ -84,12 +92,20 @@
         "name": "Corrit Electric"
     },
     {
+        "id": "b102",
+        "name": "Crayon"
+    },
+    {
         "id": "b022",
         "name": "Crayon Motors"
     },
     {
         "id": "b023",
         "name": "Creatara Mobility"
+    },
+    {
+        "id": "b103",
+        "name": "Cybo"
     },
     {
         "id": "b024",
@@ -132,6 +148,10 @@
         "name": "EeVe"
     },
     {
+        "id": "b104",
+        "name": "EKO"
+    },
+    {
         "id": "b034",
         "name": "Eko Tejas"
     },
@@ -172,6 +192,10 @@
         "name": "Evolet"
     },
     {
+        "id": "b105",
+        "name": "Evtric"
+    },
+    {
         "id": "b044",
         "name": "Fidato Evtech"
     },
@@ -208,6 +232,10 @@
         "name": "Gogoro"
     },
     {
+        "id": "b106",
+        "name": "Gravton"
+    },
+    {
         "id": "b053",
         "name": "Gravton Motors"
     },
@@ -236,6 +264,10 @@
         "name": "Herald"
     },
     {
+        "id": "b107",
+        "name": "Hero"
+    },
+    {
         "id": "b060",
         "name": "Hero Electric"
     },
@@ -244,12 +276,24 @@
         "name": "Hero Lectro"
     },
     {
+        "id": "b100",
+        "name": "Honda"
+    },
+    {
+        "id": "b109",
+        "name": "Hop"
+    },
+    {
         "id": "b062",
         "name": "Hop Electric"
     },
     {
         "id": "b063",
         "name": "Hornback"
+    },
+    {
+        "id": "b110",
+        "name": "Husqvarna"
     },
     {
         "id": "b064",
@@ -280,8 +324,24 @@
         "name": "JHEV"
     },
     {
+        "id": "b111",
+        "name": "Joy e-bike"
+    },
+    {
+        "id": "b112",
+        "name": "Kabira"
+    },
+    {
         "id": "b071",
         "name": "Kabira Mobility"
+    },
+    {
+        "id": "b113",
+        "name": "Kawasaki"
+    },
+    {
+        "id": "b114",
+        "name": "Keeway"
     },
     {
         "id": "b072",
@@ -292,12 +352,20 @@
         "name": "Komaki"
     },
     {
-        "id": "b074",
-        "name": "LML"
+        "id": "b115",
+        "name": "KTM"
+    },
+    {
+        "id": "b116",
+        "name": "Lectrix"
     },
     {
         "id": "b075",
         "name": "Lectrix EV"
+    },
+    {
+        "id": "b074",
+        "name": "LML"
     },
     {
         "id": "b076",
@@ -312,6 +380,10 @@
         "name": "Merico Electric"
     },
     {
+        "id": "b117",
+        "name": "Moto Morini"
+    },
+    {
         "id": "b079",
         "name": "Motovolt"
     },
@@ -320,12 +392,20 @@
         "name": "Odysse Electric"
     },
     {
+        "id": "b082",
+        "name": "Okaya EV"
+    },
+    {
+        "id": "b118",
+        "name": "Okinawa"
+    },
+    {
         "id": "b081",
         "name": "Okinawa Autotech"
     },
     {
-        "id": "b082",
-        "name": "Okaya EV"
+        "id": "b119",
+        "name": "OLA"
     },
     {
         "id": "b083",
@@ -340,16 +420,32 @@
         "name": "PURE EV"
     },
     {
+        "id": "b120",
+        "name": "QJ Motor"
+    },
+    {
         "id": "b086",
         "name": "Quantum Energy"
+    },
+    {
+        "id": "b121",
+        "name": "Revolt"
     },
     {
         "id": "b087",
         "name": "Revolt Motors"
     },
     {
+        "id": "b122",
+        "name": "River"
+    },
+    {
         "id": "b088",
         "name": "Rowwet Mobility"
+    },
+    {
+        "id": "b123",
+        "name": "Royal Enfield"
     },
     {
         "id": "b089",
@@ -368,6 +464,10 @@
         "name": "Suzuki"
     },
     {
+        "id": "b124",
+        "name": "Techo Electra"
+    },
+    {
         "id": "b093",
         "name": "Triumph"
     },
@@ -376,12 +476,20 @@
         "name": "Tunwal"
     },
     {
+        "id": "b125",
+        "name": "TVS"
+    },
+    {
         "id": "b095",
         "name": "Ultraviolette"
     },
     {
         "id": "b096",
         "name": "Vespa"
+    },
+    {
+        "id": "b126",
+        "name": "Vida"
     },
     {
         "id": "b097",

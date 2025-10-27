@@ -5,15 +5,15 @@ describe('variants.js unit tests', () => {
   // Test the function that retrieves all variants
   it('should retrieve all variants', () => {
     const variants = getAllVariants();
-    expect(variants).toHaveLength(3);
-    expect(variants[0].name).toBe('LE');
+    expect(variants).toHaveLength(166);
+    expect(variants[0].name).toBe('125');
   });
 
   // Test the filtering logic of getVariants
   it('should retrieve variants for a valid model ID', () => {
-    const variants = getVariants('m001');
-    expect(variants).toHaveLength(2);
-    expect(variants[0].name).toBe('LE');
+    const variants = getVariants('m1001');
+    expect(variants).toHaveLength(4);
+    expect(variants[0].name).toBe('125');
   });
 
   it('should return an empty array for a non-existent model ID', () => {
