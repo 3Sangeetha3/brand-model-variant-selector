@@ -1,6 +1,6 @@
 {
   "name": "brand-model-variant-selector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An npm package to select brand, model, and variant.",
   "main": "dist/brand-model-variant-selector.cjs",
   "module": "dist/brand-model-variant-selector.mjs",
